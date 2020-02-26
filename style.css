@@ -1,0 +1,26 @@
+/* regole generali di pagina */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+[class*="col-"] {
+  min-height: 200px;
+  border: solid 1px #000;
+  text-align: center;
+}
+
+.container{
+  background-color: pink;
+}
+
+.sx, .dx{
+  height: 200px;
+  background-color:#f07f80;
+  margin: 5px;
+}
+
+.sx > div, .dx > div {
+  border: solid 1px white;
+}
